@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Scanner</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="scan_title1">Material Description</string>
+    <string name="scan_title2">Material Code</string>
+    <string name="scan_title3">Material Batch</string>
+    <string name="scan_title4">Mat Qty</string>
+    <string name="scan_title5">Batch Qty</string>
+    <string name="scan_title6">Scan Qty</string>
+    <string name="scan_title7">Expire Month</string>
+
+    <string name="btnsend">Send</string>
+    <string name="btnsysqty">System Qty</string>
+    <string name="btnscnqty">Scan Qty</string>
+
+    <string name="dtitle1">Customer Area</string>
+    <string name="dtitle2">Customer Name</string>
+    <string name="btndownload">Download</string>
+    <string name="btnContinue">     Continue     </string>
+
+    <string name="btnSync">View Batch \n Stock</string>
+    <string name="btnSyncAll">View Material \n Stock</string>
+
+
+
+</resources>

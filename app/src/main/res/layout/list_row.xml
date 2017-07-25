@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtmdesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:typeface="monospace"
+        android:textSize="25dp"
+        android:textColor="#4F4E4E"
+
+        android:text="Material Desc"
+        android:layout_marginLeft="5dp"/>
+
+
+    <TextView
+        android:id="@+id/txtmcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textColor="#4F4E4E"
+        android:layout_below="@+id/txtmdesc"
+        android:text="Material Code"
+        android:layout_marginLeft="5dp"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="2dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/txtmcode"
+        android:layout_below="@+id/txtmdesc"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/txtmbatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/view1"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textColor="#4F4E4E"
+        android:layout_below="@+id/txtmdesc"
+        android:text="Batch"
+        android:layout_marginLeft="5dp"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="2dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/txtmbatch"
+        android:layout_below="@+id/txtmdesc"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/darker_gray"/>
+
+
+    <TextView
+        android:id="@+id/txtmedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/view2"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:textColor="#4F4E4E"
+        android:layout_below="@+id/txtmdesc"
+        android:text="N/A"
+        android:layout_marginLeft="5dp"/>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="2dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/txtmedate"
+        android:layout_below="@+id/txtmdesc"
+        android:layout_marginLeft="10dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/txtmqty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmdesc"
+        android:layout_toRightOf="@+id/view3"
+        android:textSize="20dp"
+        android:textColor="#F74141"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="qty"
+        android:layout_marginLeft="5dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtmqty"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>
