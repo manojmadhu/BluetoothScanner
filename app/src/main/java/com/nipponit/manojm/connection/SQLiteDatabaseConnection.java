@@ -28,9 +28,9 @@ public class SQLiteDatabaseConnection extends SQLiteOpenHelper {
     private static String DB_NAME="DB_SCANNER";
     private static String driver = "net.sourceforge.jtds.jdbc.Driver";
     private static Connection Myconn;
-    private static String connString = "jdbc:jtds:sqlserver://192.168.101.145;databaseName=DEALER_POS_SYS";
-    private static String Uname = "nippolac";
-    private static String Pwd = "nplk#456";
+    private static String connString = "";
+    private static String Uname = "";
+    private static String Pwd = "";
 
     private static String SYSTEM_STOCK_TABLE = "SYSTEM_STOCK_TABLE";
     private static String SCAN_STOCK_TABLE="SCAN_STOCK_TABLE";
